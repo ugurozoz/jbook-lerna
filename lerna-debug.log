@@ -1,13 +1,5 @@
-0 silly argv { _: [ 'add' ],
-0 silly argv   dev: true,
-0 silly argv   D: true,
-0 silly argv   scope: 'local-api',
-0 silly argv   globs: [],
-0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js',
-0 silly argv   pkg: 'types@express' }
-1 notice cli v3.22.1
-2 verbose rootPath C:\l\typescript\stephen-grider\jbook-lerna
-3 error types: No matching version found for types@express.
-3 error     at pickManifest (C:\Users\ugur.ozoz\AppData\Roaming\nvm\v11.15.0\node_modules\lerna\node_modules\npm-pick-manifest\index.js:122:13)
-3 error     at fetchPackument.then.packument (C:\Users\ugur.ozoz\AppData\Roaming\nvm\v11.15.0\node_modules\lerna\node_modules\@evocateur\pacote\lib\fetchers\registry\manifest.js:24:14)
+32 error Error: Command failed: git add -- packages/local-client/package.json packages/local-client/package-lock.json packages/local-api/package.json packages/local-api/package-lock.json packages/cli/package.json packages/cli/package-lock.json lerna.json
+32 error fatal: Pathspec 'packages/local-client/package.json' is in submodule 'packages/local-client'
+32 error
+32 error     at makeError (C:\Users\ugur.ozoz\AppData\Roaming\nvm\v11.15.0\node_modules\lerna\node_modules\execa\index.js:174:9)
+32 error     at Promise.all.then.arr (C:\Users\ugur.ozoz\AppData\Roaming\nvm\v11.15.0\node_modules\lerna\node_modules\execa\index.js:278:16)
